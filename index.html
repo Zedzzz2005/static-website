@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="Avengers_symbol.webp" alt="Logo" height="50">
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" id="nav"> <!-- ms-auto pushes links to right -->
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#actorsNRoles">Actors & Roles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#moviestills">Movie Stills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trailer">Trailer</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="hero-banner">
+    <div class="hero-content">
+      <img src="Avengers-Logo-2015.png" alt="">
+      <p>Earth’s Mightiest Heroes unite to protect the world from powerful threats.</p>
+    </div>
+  </section>
+
+  <div class="about-container container" id="about">
+    <button id="aboutBtn" class="about-btn">About The Avengers</button>
+  </div>
+  <div id="aboutPopup">
+    <div id="aboutContent">
+      <button id="closeBtn">Close</button>
+
+      <section id="about">
+        <h1>Avengers Assemble!</h1>
+        <p>
+          The Avengers are a team of superheroes in the Marvel Universe who work together to protect the world from
+          powerful threats. Created by Stan Lee and Jack Kirby, they first appeared in The Avengers #1 in 1963. Famous
+          members include Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye.
+        </p>
+      </section>
+
+    </div>
+  </div>
+
+  <section id="actorsNRoles">
+    <h2>Actors & Roles</h2>
+    <div class="officials-container">
+      <div class="official-card">
+        <img src="Steve_Rogers_Infobox.webp" alt=" ">
+        <h3>Captain America</h3>
+        <p>Steve Rogers</p>
+        <p>Chris Evans</p>
+      </div>
+      <div class="official-card Iron_Man">
+        <img src="Iron_Man_Infobox.webp" alt=" ">
+        <h3>Iron Man</h3>
+        <p>Tony Stark</p>
+        <p>Robert Downey Jr.</p>
+      </div>
+      <div class="official-card">
+        <img src="Thor.jpg" alt=" ">
+        <h3>God of Thunder</h3>
+        <p>Thor Odinson</p>
+        <p>Chris Hemsworth</p>
+      </div>
+      <div class="official-card">
+        <img src="ant man.jpg" alt=" ">
+        <h3>Ant Man</h3>
+        <p>Scott Lang</p>
+        <p>Paul Rudd</p>
+      </div>
+      <div class="official-card">
+        <img src="captainmarvel.jpg" alt=" ">
+        <h3>Captain Marvel</h3>
+        <p>Carol Canvers</p>
+        <p>Brie Larson</p>
+      </div>
+      <div class="official-card Hulk">
+        <img src="hulk.jpg" alt=" ">
+        <h3>Hulk</h3>
+        <p>Bruce Banner</p>
+        <p>Mark Ruffalo</p>
+      </div>
+      <div class="official-card">
+        <img src="black widow.jpg" alt=" ">
+        <h3>Black Widow</h3>
+        <p>Natasha Romanoff</p>
+        <p>Scarlett Johansson</p>
+      </div>
+      <div class="official-card">
+        <img src="war machine.jpg" alt=" ">
+        <h3>War Machine</h3>
+        <p>James Rhodes</p>
+        <p>Don Cheadle</p>
+      </div>
+      <div class="official-card">
+        <img src="Dora Milaje.webp" alt=" ">
+        <h3>Dora Milaje</h3>
+        <p>Okoye</p>
+        <p>Danai Gurira</p>
+      </div>
+      <div class="official-card">
+        <img src="Nebula.webp" alt=" ">
+        <h3>Nebula</h3>
+        <p>Karen Gillan</p>
+      </div>
+      <div class="official-card">
+        <img src="spiderman.jpg" alt=" ">
+        <h3>Spider Man</h3>
+        <p>Peter Parker</p>
+        <p>Tom Holland</p>
+      </div>
+      <div class="official-card">
+        <img src="hawkeye.jpg" alt=" ">
+        <h3>Hawkeye</h3>
+        <p>Clint Barton</p>
+        <p>Jeremy Renner</p>
+      </div>
+      <!-- Add more officials as needed -->
+    </div>
+  </section>
+
+  <section id="moviestills" class="container-fluid px-0">
+    <h2 class="text-center mb-3" id="announcementheader">Movie Stills</h2>
+
+
+    <!-- New wrapper for margin & size -->
+    <div class="carousel-wrapper mx-auto my-4">
+      <div id="announcementCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#announcementCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#announcementCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#announcementCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#announcementCarousel" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#announcementCarousel" data-bs-slide-to="4"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="avengers scene 1.webp" class="d-block w-100 carousel-img" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="scene 2.webp" class="d-block w-100 carousel-img" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="avengers scene 3.webp" class="d-block w-100 carousel-img" alt=" ">
+          </div>
+          <div class="carousel-item">
+            <img src="thanos scene.webp" class="d-block w-100 carousel-img" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="scene 5.webp" class="d-block w-100 carousel-img" alt="">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#announcementCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#announcementCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="trailer" class="container text-center my-5">
+
+    <h2 class="mb-4">Official Trailer</h2>
+
+    <div class="trailer-container">
+      <iframe width="900" height="500" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="Avengers Endgame Trailer"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+
+  </section>
+
+  <div id="Footer">
+    <footer id="marvel-footer">
+
+      <div class="marvel-logo">
+        MARVEL STUDIOS
+      </div>
+
+      <p class="marvel-links">
+        Terms of Use • Privacy Policy • Cookie Policy • Careers
+      </p>
+
+      <p class="marvel-copyright">
+        © 2026 MARVEL. All Rights Reserved.
+      </p>
+
+    </footer>
+
+
+  </div>
+</body>
+<button id="topBtn">
+  <P>🏠︎</P>
+</button>
+<script src="homepage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
